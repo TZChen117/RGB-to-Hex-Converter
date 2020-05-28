@@ -1,0 +1,43 @@
+<head>
+  <title>DOM</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+  <div class="container p-5">
+    <div class="row">
+      <div id="grb" class="grbCard-body col-8">
+        <h3>RGB</h3>
+        <div class="r-card row align-items-center my-2">
+          <h6 class="col-1">R:</h6>
+          <input type="text" class="rIndex form-control col-7" placeholder="0~255">
+          <img class="rImg col-3" src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ff0000" alt="unknown">
+        </div>
+        <div class="g-card row align-items-center my-2">
+          <h6 class="col-1">G:</h6>
+          <input type="text" class="gIndex form-control col-7" placeholder="0~255" 
+            aria-describedby="basic-addon1">
+          <img class="gImg col-3" src="http://www.thecolorapi.com/id?format=svg&named=false&hex=00ff00" alt="unknown">
+        </div>
+        <div class="b-card row align-items-center my-2">
+          <h6 class="col-1">B:</h6>
+          <input type="text" class="bIndex form-control col-7" placeholder="0~255">
+          <img class="bImg col-3" src="http://www.thecolorapi.com/id?format=svg&named=false&hex=0000ff" alt="unknown">
+        </div>
+        <input class="btn btn-primary my-1" type="button" value="Convert">
+      </div>
+      <div id="hex" class="hexCard-body col-4">
+        <div class="hex-card ">
+          <h3>HEX</h3>
+          <input type="text" class="hexIndex form-control my-2 text-uppercase" placeholder="XXXXXX">
+          <img class="hexImg my-2 w-100 border" src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ffffff" alt="unknown">
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </div>
+  </div>
+</body>
